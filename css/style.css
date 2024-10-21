@@ -12,14 +12,40 @@ body {
   height: inherit;
 }
 
+h1, p {
+  color: #fff;
+  text-shadow: 0 0 4px black;
+}
+
 h1 {
   font-size: 2rem;
-  letter-spacing: -1px;
-  position: absolute;
   margin: 0;
-  top: -4px;
-  right: 5px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
 
-  color: transparent;
-  text-shadow: 0 0 4px white;
+p {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+
+canvas {
+  display: block;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background-color: yellow;
+  outline: solid;
+  outline-color: magenta;
 }
